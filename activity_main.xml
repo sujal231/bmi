@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E7E7"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="BMI"
+        android:textColor="#ffff"
+        android:background="#6200ED"
+        android:textSize="40dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:layout_marginLeft="20dp"
+            android:textSize="30dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/edWid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="KG"
+            android:textSize="25dp"
+            android:gravity="center">
+        </EditText>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:layout_marginLeft="20dp"
+            android:textSize="30dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/edHei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="CM"
+            android:textSize="25dp"
+            android:gravity="center">
+        </EditText>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:gravity="bottom"
+        android:background="#6200ED">
+    </TextView>
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="calculator"
+        android:background="#6200ED"
+        android:textSize="30dp"
+        >
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:gravity="bottom"
+        android:background="#6200ED">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/txtRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="BMI= "
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:gravity="bottom"
+        android:background="#6200ED">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnRsset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="rsset"
+        android:layout_gravity="center"
+        android:background="#6200ED"
+        android:textSize="30dp"
+        >
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:gravity="bottom"
+        android:background="#6200ED">
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    </Button>
+
+
+</LinearLayout>
